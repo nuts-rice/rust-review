@@ -1,5 +1,5 @@
 pub mod concurrency {
-    fn main() {
+    pub fn main() {
         let arr = &[1, 25, -4, 15];
         let max = find_max(arr);
         assert_eq!(max, Some(25));
